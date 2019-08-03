@@ -1,0 +1,190 @@
+/*
+ Localizable.strings
+ Aldrete & Asociados
+
+ Created by MAC_MINI_6 on 25/06/19.
+ Copyright © 2019 Code-Brew Labs. All rights reserved.
+ */
+
+
+"FILTER" = "FILTER";
+"ALL_CONTACTS" = "ALL CONTACTS";
+
+"FORM_PERSONAL_TITLE" = "Personal Form";
+"FORM_COMPANY_TITLE" = "Company Form";
+"FORM_CONFERENCE_TITLE" = "Conference Form";
+"FORM_ADD_MEETING" = "Add Meeting";
+"UPLOAD_PRESENTATION" = "Upload Presentation";
+"RESCHEDULE" = "Reschedule";
+
+
+//Personal Form Table section and fields
+"PF_SECTION_CONTACT_INFORMATION" = "CONTACT INFORMATION";
+"PF_SECTION_CONTACT_INFORMATION_F1" = "Full name";
+"PF_SECTION_CONTACT_INFORMATION_F2" = "Email";
+"PF_SECTION_CONTACT_INFORMATION_F3" = "WhatsApp number";
+"PF_SECTION_PERSONAL_INFORMATION" = "PERSONAL INFORMATION";
+"PF_SECTION_PERSONAL_INFORMATION_F1" = "Date of Birth DD/MM/YY";
+"PF_SECTION_PERSONAL_INFORMATION_F2" = "Smoke";
+"PF_SECTION_PERSONAL_INFORMATION_F3" = "Spouse Name";
+"PF_SECTION_CHILDREN_DEPENDENTS" = "CHILDREN OR DEPENDENTS";
+"PF_SECTION_CHILDREN_DEPENDENTS_F1" = "Full name";
+"PF_SECTION_CHILDREN_DEPENDENTS_F2" = "Date of Birth DD/MM/YY";
+"PF_SECTION_CHILDREN_DEPENDENTS_ADD_TITLE" = "Add Child / Dependent";
+"PF_SECTION_FINANCIAL_DATA" = "FINANCIAL DATA";
+"PF_SECTION_FINANCIAL_DATA_F01" = "Monthly Fixed Costs $ MXN";
+"PF_SECTION_FINANCIAL_DATA_F02" = "Monthly Variable Expenses $ MXN";
+"PF_SECTION_FINANCIAL_DATA_F03" = "Percentage that covers expenses%";
+"PF_SECTION_FINANCIAL_DATA_F04" = "Percentage covering expenses Ella%";
+"PF_SECTION_FINANCIAL_DATA_F05" = "GMM insurance";
+"PF_SECTION_FINANCIAL_DATA_F06" = "Company";
+"PF_SECTION_FINANCIAL_DATA_F07" = "Sum Secured $ MXN";
+"PF_SECTION_FINANCIAL_DATA_F08" = "Will";
+"PF_SECTION_FINANCIAL_DATA_F09" = "Have Debt Yes / No";
+"PF_SECTION_FINANCIAL_DATA_F10" = "What debts";
+"PF_SECTION_FINANCIAL_DATA_F11" = "Most Important Financial Goals";
+"PF_SECTION_FINANCIAL_DATA_F12" = "What are you doing to reach them";
+"PF_SECTION_FINANCIAL_DATA_F13" = "Have Money Saved Yes / No";
+"PF_SECTION_FINANCIAL_DATA_F14" = "How much money $ MXN";
+"PF_SECTION_FINANCIAL_DATA_F15" = "In what instrument";
+"PF_SECTION_FINANCIAL_DATA_F16" = "In case of premature death, who would be responsible for the expenses of your family?";
+"PF_SECTION_FINANCIAL_DATA_F17" = "Has a contingency plan in case of disability Yes / No";
+"PF_SECTION_FINANCIAL_DATA_F18" = "What's the plan";
+"PF_SECTION_FINANCIAL_DATA_F19" = "You have a financial plan for retirement Yes / No";
+"PF_SECTION_FINANCIAL_DATA_F20" = "What's the plan";
+"PF_SECTION_FINANCIAL_DATA_F21" = "At what age would you like to retire + years";
+"PF_SECTION_FINANCIAL_DATA_F22" = "Date of Meeting to Present Proposal";
+"PF_SECTION_FINANCIAL_DATA_F23" = "How many years do you want to leave your family covered?";
+"PF_SECTION_FINANCIAL_DATA_F24" = "Do you have a spouse, young children and are you responsible for your well-being?";
+"PF_SECTION_FINANCIAL_DATA_F25" = "Are your retirement or pension very low to maintain the standard of living of yours if you were not there?";
+"PF_SECTION_FINANCIAL_DATA_F26" = "Would you need to make your home mortgage payment planned?";
+"PF_SECTION_FINANCIAL_DATA_F27" = "How long would I need to be insured?";
+"PF_SECTION_FINANCIAL_DATA_F28" = "How much money do you think your family would need to be able to live when you die?";
+"PF_SECTION_FINANCIAL_DATA_F29" = "Would you like only protection or also include savings fund either for your retirement or pay for children's college";
+
+
+
+
+
+//Company Form Table section and fields
+"CF_SEC_CONTACT_INFO" = "CONTACT INFORMATION";
+"CF_SEC_CONTACT_INFO_F1" = "Full name";
+"CF_SEC_CONTACT_INFO_F2" = "Email";
+"CF_SEC_CONTACT_INFO_F3" = "WhatsApp number";
+"CF_SEC_PERSONAL_INFO" = "PERSONAL INFORMATION";
+"CF_SEC_PERSONAL_INFO_F1" = "Date of Birth DD/MM/YY";
+"CF_SEC_PERSONAL_INFO_F2" = "Smoke";
+"CF_SEC_KEY_MEN" = "KEY MEN";
+"CF_SEC_KEY_MEN_F1" = "Full name";
+"CF_SEC_KEY_MEN_F2" = "Date of Birth DD/MM/YY";
+"CF_SEC_KEY_MEN_F3" = "Share Percentage of Members%";
+"CF_SEC_KEY_MEN_F4" = "Smoke";
+"CF_SEC_KEY_MEN_F5" = "Prize Amount";
+"CF_SEC_KEY_MEN_F6" = "Deferred Compensation";
+"CF_SEC_KEY_MEN_BTN_ADD" = "Add Key Man";
+"CF_SEC_DATE_OF_MEETING_F1" = "Date of Meeting to Present Proposal";
+"CF_PROTECTION_ONLY" = "Protection only";
+"CF_SAVING_FUND" = "Savings Fund";
+
+
+//Personal Form Validation Message
+"VD_PF_SECTION_CONTACT_INFORMATION_F1" = "Please enter Fullname.";
+"VD_PF_SECTION_CONTACT_INFORMATION_F2" = "Please enter valid contact email.";
+"VD_PF_SECTION_CONTACT_INFORMATION_F3" = "Please enter WhatsApp number.";
+"VD_PF_SECTION_PERSONAL_INFORMATION_F1" = "Please select date of birth.";
+"VD_PF_SECTION_PERSONAL_INFORMATION_F2" = "Please select smoke value.";
+"VD_PF_SECTION_PERSONAL_INFORMATION_F3" = "Please enter spouse name.";
+"VD_PF_SECTION_CHILDREN_DEPENDENTS_F1" = "Please enter children/dependents fullname.";
+"VD_PF_SECTION_CHILDREN_DEPENDENTS_F2" = "Please select children/dependents date of birth.";
+"VD_PF_SECTION_FINANCIAL_DATA_F01" = "Please enter monthly fixed costs.";
+"VD_PF_SECTION_FINANCIAL_DATA_F02" = "Please enter monthly variable expenses.";
+"VD_PF_SECTION_FINANCIAL_DATA_F03" = "Please enter percentage that covers expenses.";
+"VD_PF_SECTION_FINANCIAL_DATA_F04" = "Please enter percentage covering expenses Ella.";
+
+"VD_PF_SECTION_FINANCIAL_DATA_ONLY_NUMBER" = "Percentage covering expenses should be number only";
+
+"VD_PF_SECTION_FINANCIAL_DATA_F05" = "Please select GMM insurance.";
+"VD_PF_SECTION_FINANCIAL_DATA_F06" = "Please enter company name.";
+"VD_PF_SECTION_FINANCIAL_DATA_F07" = "Please enter sum secured.";
+"VD_PF_SECTION_FINANCIAL_DATA_F07_NUMBER_ONLY" = "Sum Secured should be number only";
+
+"VD_PF_SECTION_FINANCIAL_DATA_F08" = "Please select will value.";
+"VD_PF_SECTION_FINANCIAL_DATA_F09" = "Please select debt.";
+"VD_PF_SECTION_FINANCIAL_DATA_F10" = "Please enter what debts.";
+"VD_PF_SECTION_FINANCIAL_DATA_F11" = "Please enter most important financial goals.";
+"VD_PF_SECTION_FINANCIAL_DATA_F12" = "Please enter what are you doing to reach them.";
+"VD_PF_SECTION_FINANCIAL_DATA_F13" = "Please select have money saved";
+"VD_PF_SECTION_FINANCIAL_DATA_F14" = "Please enter how much money.";
+"VD_PF_SECTION_FINANCIAL_DATA_F14_NUMBER_ONLY" =  "$MNX should be number only";
+"VD_PF_SECTION_FINANCIAL_DATA_F15" = "Please enter in what instrument";
+"VD_PF_SECTION_FINANCIAL_DATA_F16" = "Please enter in case of premature death, who would be responsible for the expenses of your family?";
+"VD_PF_SECTION_FINANCIAL_DATA_F17" = "Please select has a contingency plan in case of disability";
+"VD_PF_SECTION_FINANCIAL_DATA_F18" = "Please enter what's the plan";
+"VD_PF_SECTION_FINANCIAL_DATA_F19" = "Please select if you have a financial plan for retirement?";
+"VD_PF_SECTION_FINANCIAL_DATA_F20" = "Please enter what's the plan";
+"VD_PF_SECTION_FINANCIAL_DATA_F21" = "Please enter at what age would you like to retire + years";
+"VD_PF_SECTION_FINANCIAL_DATA_F22" = "Please select date of meeting to present proposal";
+"VD_PF_SECTION_FINANCIAL_DATA_F23" = "Please select How many years do you want to leave your family covered?";
+"VD_PF_SEC_CONTACT_INFO_CORRECT_EMAIL" = "Please enter contact email.";
+"VD_PF_SEC_CONTACT_INFO_CORRECT_WHATSAPP_NUMBER" = "Please enter correct whatsApp number.";
+"VD_PF_SECTION_FINANCIAL_DATA_F24" = "Please select Do you have a spouse, young children and are you responsible for your well-being?";
+"VD_PF_SECTION_FINANCIAL_DATA_F25" = "Please select Are your retirement or pension very low to maintain the standard of living of yours if you were not there?";
+"VD_PF_SECTION_FINANCIAL_DATA_F26" = "Please select Would you need to make your home mortgage payment planned?";
+"VD_PF_SECTION_FINANCIAL_DATA_F27" = "Please select How long would I need to be insured?";
+"VD_PF_SECTION_FINANCIAL_DATA_F28" = "Please select How much money do you think your family would need to be able to live when you die?";
+"VD_PF_SECTION_FINANCIAL_DATA_F29" = "Please select Would you like only protection or also include savings fund either for your retirement or pay for children's college";
+
+
+//Validation Company Form Table section and fields
+"VD_CF_SEC_CONTACT_INFO_F1" = "Please enter fullname.";
+"VD_CF_SEC_CONTACT_INFO_F2" = "Please enter email.";
+"VD_CF_SEC_CONTACT_INFO_F3" = "Please enter whatsapp number.";
+"VD_CF_SEC_PERSONAL_INFO_F1" = "Please select date of birth.";
+"VD_CF_SEC_PERSONAL_INFO_F2" = "Please select smoke value.";
+"VD_CF_SEC_KEY_MEN_F1" = "Please enter keymen fullname.";
+"VD_CF_SEC_KEY_MEN_F2" = "Please enter keymen date of birth";
+"VD_CF_SEC_KEY_MEN_F3" = "Please enter keymen share percentage.";
+"VD_CF_SEC_KEY_MEN_F4" = "Please select keymen smoke value.";
+"VD_CF_SEC_KEY_MEN_F5" = "Please enter keymen prize amount.";
+"VD_CF_SEC_KEY_MEN_F6" = "Please enter keymen deferred compensation.";
+"VD_CF_SEC_DATE_OF_MEETING_F1" = "Please enter date of meeting to present proposal.";
+"VD_CF_SEC_CONTACT_INFO_CORRECT_EMAIL" = "Please enter correct contact email.";
+"VD_CF_SEC_CONTACT_INFO_CORRECT_WHATSAPP_NUMBER" = "Please enter correct whatsapp number.";
+"VD_CF_SEC_CONTACT_VALID_AMOUNT" = "Please enter keymen valid amount.";
+"VD_CF_SEC_CONTACT_VALID_DEFFERED_COMPENSATION" = "Please enter keymen valid deffered compensation.";
+"VD_CF_KEY_MEN_VALID_SHARE_PERCENTAGE_OF_MEMBER" = "Please enter valid keymen share percentage.";
+"VD_CF_EMAIL_ALREADY_EXIST" = "Email already exist in database.";
+"VD_CF_NUMBER_ALREADY_EXIST" = "Number already exist in database.";
+"VD_CF_DATA_SAVED_SUCCESSFULLY" = "Data saved sucessfully";
+"VD_CF_SUCCESS" = "Success";
+
+
+
+//
+"VD_MEETING_MEETING_NAME" = "Please enter meeting name.";
+"VD_MEETING_MEETING_START_TIME" = "Please select start time.";
+"VD_MEETING_MEETING_END_TIME" = "Please select end time";
+"VD_MEETING_MEETING_END_TIME_GREATER" = "End time should be greater than the start time.";
+"VD_MEETING_DATE" = "Please select meeting date.";
+"VD_MEETING_LOCATION" = "Please enter meeting location.";
+"VD_MEETING_PRESENTATION" = "Please select presentation.";
+
+"VD_CONTACT_TYPE" = "Please select contact type.";
+"VD_CONTACT_NUMBER" = "Please enter correct contact number.";
+"VD_ARE_YOU_SURE_TO_DELETE" = "Are you sure you want to delete.";
+
+
+"ADD_MEETING" = "Add Meeting";
+"EDIT_STATUS" = "Edit Status";
+"EDIT_MAIN" = "Edit Main";
+"DELETE_CONTACT" = "Delete Contact";
+"ALL" = "All";
+"WARM" = "Warm";
+"HOT" = "Hot";
+"COLD" = "Cold";
+"DELETE_MEETING" = "Are you sure?";
+
+
+
+
+

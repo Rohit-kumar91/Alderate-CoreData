@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ChildrenOrDependentsCD" representedClassName="ChildrenOrDependentsCD" syncable="YES" codeGenerationType="class">
+        <attribute name="dob" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="personalForm" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersonFormCD" inverseName="childreanOrDependents" inverseEntity="PersonFormCD" syncable="YES"/>
+    </entity>
+    <entity name="CompanyFormCD" representedClassName="CompanyFormCD" syncable="YES" codeGenerationType="class">
+        <attribute name="created" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contactInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ContactInfoCD" inverseName="companyForm" inverseEntity="ContactInfoCD" syncable="YES"/>
+        <relationship name="keyMen" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="KeyMenCD" inverseName="companyForm" inverseEntity="KeyMenCD" syncable="YES"/>
+        <relationship name="meeting" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MeetingCD" inverseName="companyForm" inverseEntity="MeetingCD" syncable="YES"/>
+        <relationship name="personalInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersonalInfoCD" inverseName="companyForm" inverseEntity="PersonalInfoCD" syncable="YES"/>
+    </entity>
+    <entity name="ContactInfoCD" representedClassName="ContactInfoCD" syncable="YES" codeGenerationType="class">
+        <attribute name="dateOfMeetingProposal" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="formType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="whatsAppNo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="companyForm" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CompanyFormCD" inverseName="contactInfo" inverseEntity="CompanyFormCD" syncable="YES"/>
+        <relationship name="contactPhoneNumber" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ContactPhoneNumberCD" inverseName="contactPhoneNumber" inverseEntity="ContactPhoneNumberCD" syncable="YES"/>
+        <relationship name="personalForm" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersonFormCD" inverseName="contactInfo" inverseEntity="PersonFormCD" syncable="YES"/>
+    </entity>
+    <entity name="ContactPhoneNumberCD" representedClassName="ContactPhoneNumberCD" syncable="YES" codeGenerationType="class">
+        <attribute name="contactId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contactPhoneNumber" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ContactInfoCD" inverseName="contactPhoneNumber" inverseEntity="ContactInfoCD" syncable="YES"/>
+    </entity>
+    <entity name="FinancialDataCD" representedClassName="FinancialDataCD" syncable="YES" codeGenerationType="class">
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contingencyPlan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doingToReachThem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doYouhaveSpouse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="financialGoals" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="howManyYearForFamily" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="howMuchMoney" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="instrument" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="insured" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isContigencyPlan" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isDebt" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isFinanacialPlanOfRetirement" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isGMM_Insurance" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isMoneySaved" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isWill" optional="YES" attributeType="Boolean" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="moneyNeedByFamily" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="monthlyFixedCost" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="monthlyVariableExpenses" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mortgagePayment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nominee" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="percentageCoveringExpensesElla" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="percentageThatCoverExpenses" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="presentProposalDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="protection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="retireAge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="retirement" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="retirementPlan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sumSecuredMXN" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="whatDebts" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="personalForm" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersonFormCD" inverseName="financialData" inverseEntity="PersonFormCD" syncable="YES"/>
+    </entity>
+    <entity name="KeyMenCD" representedClassName="KeyMenCD" syncable="YES" codeGenerationType="class">
+        <attribute name="defferedCompensation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dob" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prizeAmount" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sharePercentageMember" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="smoke" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="companyForm" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CompanyFormCD" inverseName="keyMen" inverseEntity="CompanyFormCD" syncable="YES"/>
+    </entity>
+    <entity name="MeetingCD" representedClassName="MeetingCD" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="endTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="formType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meetingId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meetingTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="companyForm" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CompanyFormCD" inverseName="meeting" inverseEntity="CompanyFormCD" syncable="YES"/>
+    </entity>
+    <entity name="PersonalInfoCD" representedClassName="PersonalInfoCD" syncable="YES" codeGenerationType="class">
+        <attribute name="dob" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="formType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="smoke" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="spouseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="companyForm" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CompanyFormCD" inverseName="personalInfo" inverseEntity="CompanyFormCD" syncable="YES"/>
+        <relationship name="personalForm" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersonFormCD" inverseName="personalInfo" inverseEntity="PersonFormCD" syncable="YES"/>
+    </entity>
+    <entity name="PersonFormCD" representedClassName="PersonFormCD" syncable="YES" codeGenerationType="class">
+        <attribute name="created" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="childreanOrDependents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ChildrenOrDependentsCD" inverseName="personalForm" inverseEntity="ChildrenOrDependentsCD" syncable="YES"/>
+        <relationship name="contactInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ContactInfoCD" inverseName="personalForm" inverseEntity="ContactInfoCD" syncable="YES"/>
+        <relationship name="financialData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FinancialDataCD" inverseName="personalForm" inverseEntity="FinancialDataCD" syncable="YES"/>
+        <relationship name="personalInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersonalInfoCD" inverseName="personalForm" inverseEntity="PersonalInfoCD" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ChildrenOrDependentsCD" positionX="-106.07421875" positionY="30.3515625" width="128" height="118"/>
+        <element name="CompanyFormCD" positionX="-143.94140625" positionY="170.31640625" width="128" height="135"/>
+        <element name="ContactInfoCD" positionX="-430.89453125" positionY="-30.55859375" width="128" height="210"/>
+        <element name="ContactPhoneNumberCD" positionX="-534.109375" positionY="250.29296875" width="128" height="120"/>
+        <element name="FinancialDataCD" positionX="-774.34375" positionY="272.4921875" width="128" height="510"/>
+        <element name="KeyMenCD" positionX="-112.24609375" positionY="360.17578125" width="128" height="180"/>
+        <element name="MeetingCD" positionX="77.8671875" positionY="162.79296875" width="128" height="210"/>
+        <element name="PersonalInfoCD" positionX="-380.41796875" positionY="315.359375" width="128" height="150"/>
+        <element name="PersonFormCD" positionX="-784.80078125" positionY="96.96875" width="128" height="135"/>
+    </elements>
+</model>

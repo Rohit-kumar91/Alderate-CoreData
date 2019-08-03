@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MeetingLocationCell" rowHeight="92" id="KGk-i7-Jjw" customClass="MeetingLocationCell" customModule="Aldrete___Asociados" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="610" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="610" height="91.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JbM-jJ-KMn">
+                        <rect key="frame" x="30" y="91" width="580" height="0.5"/>
+                        <color key="backgroundColor" name="separator"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.69999999999999996" id="qSt-RI-R98"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LiC-hn-vQr">
+                        <rect key="frame" x="30" y="0.0" width="580" height="91"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_date" translatesAutoresizingMaskIntoConstraints="NO" id="czk-SZ-9zf">
+                                <rect key="frame" x="16" y="16" width="28" height="28"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meeting Location:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpm-Lk-ja3">
+                                <rect key="frame" x="57" y="16" width="133" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="wFS-YK-z6E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Circunvalación Jorge Álvarez del Castillo #1069" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wac-24-JJ1">
+                                <rect key="frame" x="57" y="40" width="232" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="textSecondary"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MB0-qe-Hqc">
+                                <rect key="frame" x="484" y="0.0" width="48" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="ECm-tE-afO"/>
+                                </constraints>
+                                <state key="normal" image="ic_Icon_Close"/>
+                                <connections>
+                                    <action selector="btnCancelAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ehR-Uk-51S"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="tableSectionColorGrey"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="MB0-qe-Hqc" secondAttribute="bottom" id="3SV-IV-bBc"/>
+                            <constraint firstItem="Wac-24-JJ1" firstAttribute="leading" secondItem="Gpm-Lk-ja3" secondAttribute="leading" id="7x7-Ik-FB1"/>
+                            <constraint firstAttribute="bottom" secondItem="Wac-24-JJ1" secondAttribute="bottom" constant="17.5" id="9dA-Q2-QNq"/>
+                            <constraint firstItem="MB0-qe-Hqc" firstAttribute="top" secondItem="LiC-hn-vQr" secondAttribute="top" id="FSr-md-3df"/>
+                            <constraint firstAttribute="trailing" secondItem="MB0-qe-Hqc" secondAttribute="trailing" constant="48" id="Jms-Od-GCQ"/>
+                            <constraint firstItem="Gpm-Lk-ja3" firstAttribute="leading" secondItem="czk-SZ-9zf" secondAttribute="trailing" constant="13" id="SLf-KI-rd2"/>
+                            <constraint firstItem="czk-SZ-9zf" firstAttribute="leading" secondItem="LiC-hn-vQr" secondAttribute="leading" constant="16" id="W4N-Xl-yFm"/>
+                            <constraint firstItem="czk-SZ-9zf" firstAttribute="top" secondItem="LiC-hn-vQr" secondAttribute="top" constant="16" id="mox-gS-akZ"/>
+                            <constraint firstItem="Wac-24-JJ1" firstAttribute="top" secondItem="Gpm-Lk-ja3" secondAttribute="bottom" constant="4" id="tfZ-kv-oUK"/>
+                            <constraint firstItem="Gpm-Lk-ja3" firstAttribute="top" secondItem="czk-SZ-9zf" secondAttribute="top" id="xw7-zj-n4M"/>
+                            <constraint firstItem="Wac-24-JJ1" firstAttribute="width" secondItem="LiC-hn-vQr" secondAttribute="width" multiplier="0.4" id="yb9-U2-7Rg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="cellBackground"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="JbM-jJ-KMn" secondAttribute="trailing" id="PVX-bJ-M7i"/>
+                    <constraint firstItem="JbM-jJ-KMn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="Pj3-P8-gyT"/>
+                    <constraint firstAttribute="bottom" secondItem="JbM-jJ-KMn" secondAttribute="bottom" id="ewD-cc-rIY"/>
+                    <constraint firstAttribute="trailing" secondItem="LiC-hn-vQr" secondAttribute="trailing" id="hWn-jT-OQL"/>
+                    <constraint firstItem="JbM-jJ-KMn" firstAttribute="top" secondItem="LiC-hn-vQr" secondAttribute="bottom" id="iCc-Lz-YZT"/>
+                    <constraint firstItem="LiC-hn-vQr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="iVl-2C-WZH"/>
+                    <constraint firstItem="LiC-hn-vQr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="qfY-rp-bpX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnCancel" destination="MB0-qe-Hqc" id="eQP-gJ-0A3"/>
+                <outlet property="imgView" destination="czk-SZ-9zf" id="5qT-yB-EOY"/>
+                <outlet property="lblSubtitle" destination="Wac-24-JJ1" id="5Vy-LC-KRN"/>
+                <outlet property="lblTitle" destination="Gpm-Lk-ja3" id="k01-ZL-29d"/>
+            </connections>
+            <point key="canvasLocation" x="125" y="56"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_Icon_Close" width="24" height="24"/>
+        <image name="ic_date" width="28" height="28"/>
+        <namedColor name="cellBackground">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="separator">
+            <color red="0.78431372549019607" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tableSectionColorGrey">
+            <color red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textSecondary">
+            <color red="0.54117647058823526" green="0.54117647058823526" blue="0.5607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

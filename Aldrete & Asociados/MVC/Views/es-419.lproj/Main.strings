@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "9sS-3Q-WRU"; */
+"9sS-3Q-WRU.normalTitle" = "Back";
+
+/* Class = "UISegmentedControl"; Mg2-Fe-vRa.segmentTitles[0] = "Company"; ObjectID = "Mg2-Fe-vRa"; */
+"Mg2-Fe-vRa.segmentTitles[0]" = "Company";
+
+/* Class = "UISegmentedControl"; Mg2-Fe-vRa.segmentTitles[1] = "Person"; ObjectID = "Mg2-Fe-vRa"; */
+"Mg2-Fe-vRa.segmentTitles[1]" = "Person";
+
+/* Class = "UISegmentedControl"; Mg2-Fe-vRa.segmentTitles[2] = "Conference"; ObjectID = "Mg2-Fe-vRa"; */
+"Mg2-Fe-vRa.segmentTitles[2]" = "Conference";
+
+/* Class = "UIButton"; normalTitle = "New   "; ObjectID = "QJ4-bu-Cwa"; */
+"QJ4-bu-Cwa.normalTitle" = "New   ";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "iMK-Sl-div"; */
+"iMK-Sl-div.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Upcoming Meetings"; ObjectID = "jtp-4E-FAt"; */
+"jtp-4E-FAt.text" = "Upcoming Meetings";
+
+/* Class = "UILabel"; text = "Clients"; ObjectID = "o5W-Is-j61"; */
+"o5W-Is-j61.text" = "Clients";

@@ -1,0 +1,77 @@
+/*
+ Localizable.strings
+ Aldrete & Asociados
+ 
+ Created by MAC_MINI_6 on 25/06/19.
+ Copyright © 2019 Code-Brew Labs. All rights reserved.
+ */
+
+"FILTER" = "FILTRAR";
+"ALL_CONTACTS" = "TODOS LOS CONTACTOS";
+
+//"FORM_PERSONAL_TITLE" = "Forma personal";
+//"FORM_COMPANY_TITLE" = "Formulario de empresa";
+"FORM_PERSONAL_TITLE" = "Manejo de riesgos personales";
+"FORM_COMPANY_TITLE" = "Manejo de riesgos empresariales";
+
+"FORM_CONFERENCE_TITLE" = "Formulario de conferencia";
+"UPLOAD_PRESENTATION" = "Subir presentación";
+"RESCHEDULE" = "Reprogramar";
+
+
+//Personal Form Table section and fields
+"PF_SECTION_CONTACT_INFORMATION" = "INFORMACIÓN DE CONTACTO";
+"PF_SECTION_CONTACT_INFORMATION_F1" = "Nombre Completo";
+"PF_SECTION_CONTACT_INFORMATION_F2" = "Correo Electrónico";
+"PF_SECTION_CONTACT_INFORMATION_F3" = "Número de WhatsApp";
+"PF_SECTION_PERSONAL_INFORMATION" = "DATOS PERSONALES";
+"PF_SECTION_PERSONAL_INFORMATION_F1" = "Fecha de Nacimiento  DD/MM/AA";
+"PF_SECTION_PERSONAL_INFORMATION_F2" = "Fuma Sí / No";
+"PF_SECTION_PERSONAL_INFORMATION_F3" = "Nombre de Cónyuge";
+"PF_SECTION_CHILDREN_DEPENDENTS" = "HIJOS O DEPENDIENTES";
+"PF_SECTION_CHILDREN_DEPENDENTS_F1" = "Nombre Completo";
+"PF_SECTION_CHILDREN_DEPENDENTS_F2" = "Fecha de Nacimiento DD/MM/AA";
+"PF_SECTION_CHILDREN_DEPENDENTS_ADD_TITLE" = "Agregar Hijo / Dependiente";
+"PF_SECTION_FINANCIAL_DATA" = "DATOS FINANCIEROS";
+"PF_SECTION_FINANCIAL_DATA_F01" = "Gastos Fijos Mensuales $ MXN";
+"PF_SECTION_FINANCIAL_DATA_F02" = "Gastos Variables Mensuales $ MXN";
+"PF_SECTION_FINANCIAL_DATA_F03" = "Porcentaje que cubre de gastos El %";
+"PF_SECTION_FINANCIAL_DATA_F04" = "Porcentaje que cubre de gastos Ella %";
+"PF_SECTION_FINANCIAL_DATA_F05" = "Cuentan con seguro de GMM SÍ / No";
+"PF_SECTION_FINANCIAL_DATA_F06" = "Compañía";
+"PF_SECTION_FINANCIAL_DATA_F07" = "Suma Asegurada $ MXN";
+"PF_SECTION_FINANCIAL_DATA_F08" = "Cuentan con testamento Sí / No";
+"PF_SECTION_FINANCIAL_DATA_F09" = "Tienen Deudas Sí / No";
+"PF_SECTION_FINANCIAL_DATA_F10" = "Cuales Deudas";
+"PF_SECTION_FINANCIAL_DATA_F11" = "Metas Financieras Más Importantes";
+"PF_SECTION_FINANCIAL_DATA_F12" = "Que estas haciendo para alcanzalas";
+"PF_SECTION_FINANCIAL_DATA_F13" = "Tienen Dinero Ahorrado Sí / No";
+"PF_SECTION_FINANCIAL_DATA_F14" = "Cúanto dinero $ MXN";
+"PF_SECTION_FINANCIAL_DATA_F15" = "En qué Instrumento";
+"PF_SECTION_FINANCIAL_DATA_F16" = "En caso de fallecimiento prematuro, ¿Quién se haría responsable de los gastos de tu familia?";
+"PF_SECTION_FINANCIAL_DATA_F17" = "Tiene un plan de contingencia en caso de incapacidad  SÍ / No";
+"PF_SECTION_FINANCIAL_DATA_F18" = "Cuál es el plan";
+"PF_SECTION_FINANCIAL_DATA_F19" = "Tienes un plan financiero para retiro Sí / No";
+"PF_SECTION_FINANCIAL_DATA_F20" = "Cuál es el plan";
+"PF_SECTION_FINANCIAL_DATA_F21" = "A qué edad te gustaría retirarte + años";
+"PF_SECTION_FINANCIAL_DATA_F22" = "Fecha de Reunión para Presentar Propuesta";
+
+//Company Form Table section and fields
+"CF_SEC_CONTACT_INFO" = "INFORMACIÓN DE CONTACTO";
+"CF_SEC_CONTACT_INFO_F1" = "Nombre Completo";
+"CF_SEC_CONTACT_INFO_F2" = "Correo Electrónico";
+"CF_SEC_CONTACT_INFO_F3" = "Número de WhatsApp";
+"CF_SEC_PERSONAL_INFO" = "DATOS PERSONALES";
+"CF_SEC_PERSONAL_INFO_F1" = "Fecha de Nacimiento DD/MM/AA";
+"CF_SEC_PERSONAL_INFO_F2" = "Fuma Sí / No";
+"CF_SEC_KEY_MEN" = "HOMBRES CLAVE";
+"CF_SEC_KEY_MEN_F1" = "Nombre Completo";
+"CF_SEC_KEY_MEN_F2" = "Fecha de Nacimiento DD/MM/AA";
+"CF_SEC_KEY_MEN_F3" = "Porcentaje Accionario de los Socios %";
+"CF_SEC_KEY_MEN_F4" = "Fuma Sí / No";
+"CF_SEC_KEY_MEN_F5" = "Monto del Premio";
+"CF_SEC_KEY_MEN_F6" = "Compensacióm Diferida";
+"CF_SEC_KEY_MEN_BTN_ADD" = "Agregar Hombre Clave";
+"CF_SEC_DATE_OF_MEETING_F1" = "Fecha de Reunión para Presentar Propuesta";
+"CF_PROTECTION_ONLY" = "Solo protección";
+"CF_SAVING_FUND" = "Fondo de ahorro";

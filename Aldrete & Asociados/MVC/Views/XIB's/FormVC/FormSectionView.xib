@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FormSectionView" customModule="Aldrete___Asociados" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="714" height="74"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlK-nc-Jfr">
+                    <rect key="frame" x="0.0" y="0.0" width="714" height="74"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f0A-sh-ac2">
+                            <rect key="frame" x="0.0" y="73.5" width="714" height="0.5"/>
+                            <color key="backgroundColor" name="separator"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.69999999999999996" id="GGe-DW-Ygb"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFORMACIÓN DE CONTACTO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kI-fo-NKd">
+                            <rect key="frame" x="48" y="0.0" width="224" height="73.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" name="blueTint"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="tableSectionColorGrey"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="f0A-sh-ac2" secondAttribute="trailing" id="8H0-7U-gVl"/>
+                        <constraint firstItem="f0A-sh-ac2" firstAttribute="leading" secondItem="hlK-nc-Jfr" secondAttribute="leading" id="aBk-bY-0a5"/>
+                        <constraint firstItem="f0A-sh-ac2" firstAttribute="top" secondItem="4kI-fo-NKd" secondAttribute="bottom" id="ca8-e5-bZs"/>
+                        <constraint firstItem="4kI-fo-NKd" firstAttribute="leading" secondItem="hlK-nc-Jfr" secondAttribute="leading" constant="48" id="dGE-gh-J1f"/>
+                        <constraint firstItem="4kI-fo-NKd" firstAttribute="top" secondItem="hlK-nc-Jfr" secondAttribute="top" id="iq5-Jc-NM3"/>
+                        <constraint firstAttribute="bottom" secondItem="f0A-sh-ac2" secondAttribute="bottom" id="pDg-EE-gcg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <accessibility key="accessibilityConfiguration" identifier="FormSectionView"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hlK-nc-Jfr" secondAttribute="bottom" id="Wyv-C6-85c"/>
+                <constraint firstItem="hlK-nc-Jfr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="sFF-is-Fo6"/>
+                <constraint firstItem="hlK-nc-Jfr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wqL-ch-Ip0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hlK-nc-Jfr" secondAttribute="trailing" id="y7q-Cb-z6h"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="lblTitle" destination="4kI-fo-NKd" id="VCk-PZ-qsH"/>
+            </connections>
+            <point key="canvasLocation" x="116.8" y="139.43028485757122"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="blueTint">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="separator">
+            <color red="0.78431372549019607" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tableSectionColorGrey">
+            <color red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

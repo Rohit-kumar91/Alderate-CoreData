@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MasterSection" customModule="Aldrete___Asociados" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="69"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ej-Yf-g0P">
+                    <rect key="frame" x="0.0" y="0.0" width="391" height="69"/>
+                    <color key="backgroundColor" name="tableSectionColorGrey"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqG-wi-n9z">
+                    <rect key="frame" x="34" y="25" width="357" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" name="textSecondary"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <accessibility key="accessibilityConfiguration" identifier="MasterSection"/>
+            <constraints>
+                <constraint firstItem="cqG-wi-n9z" firstAttribute="centerY" secondItem="7ej-Yf-g0P" secondAttribute="centerY" id="2yY-3W-vEu"/>
+                <constraint firstItem="cqG-wi-n9z" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="34" id="DWw-s2-Gxd"/>
+                <constraint firstItem="7ej-Yf-g0P" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="bku-XU-Lta"/>
+                <constraint firstItem="7ej-Yf-g0P" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="iAe-Xh-yxN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cqG-wi-n9z" secondAttribute="trailing" id="ivW-dD-Kpm"/>
+                <constraint firstItem="7ej-Yf-g0P" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="j46-DE-42Z"/>
+                <constraint firstItem="7ej-Yf-g0P" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="mpU-Re-j4H"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backView" destination="7ej-Yf-g0P" id="j4b-Hj-Yrs"/>
+                <outlet property="lblTitle" destination="cqG-wi-n9z" id="i83-NA-rqI"/>
+            </connections>
+            <point key="canvasLocation" x="62" y="433"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="tableSectionColorGrey">
+            <color red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textSecondary">
+            <color red="0.54117647058823526" green="0.54117647058823526" blue="0.5607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

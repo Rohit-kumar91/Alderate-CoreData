@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DetailSection" customModule="Aldrete___Asociados" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="59"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pbt-cw-XwP">
+                    <rect key="frame" x="0.0" y="0.0" width="430" height="59"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3f-Qv-uYf">
+                            <rect key="frame" x="350" y="7" width="80" height="52"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="uJj-2I-0Hm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="48" maxY="0.0"/>
+                            <state key="normal" title="Edit">
+                                <color key="titleColor" name="redTint"/>
+                            </state>
+                            <connections>
+                                <action selector="btnEditAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Fx8-79-CX9"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="R3f-Qv-uYf" secondAttribute="bottom" id="j2W-0g-xt0"/>
+                        <constraint firstAttribute="trailing" secondItem="R3f-Qv-uYf" secondAttribute="trailing" id="kfz-WW-HIo"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill Watson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxf-zp-AOm">
+                    <rect key="frame" x="48" y="22" width="93.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lD4-M1-g6G">
+                    <rect key="frame" x="30" y="58.5" width="400" height="0.5"/>
+                    <color key="backgroundColor" name="separator"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.69999999999999996" id="zwf-Oh-srg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <accessibility key="accessibilityConfiguration" identifier="DetailSection"/>
+            <constraints>
+                <constraint firstItem="Sxf-zp-AOm" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="48" id="HI0-Wb-l1Y"/>
+                <constraint firstItem="lD4-M1-g6G" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Jia-JS-9Oc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Sxf-zp-AOm" secondAttribute="bottom" constant="16" id="PMb-Hp-aOg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="lD4-M1-g6G" secondAttribute="bottom" id="cb8-E3-6nl"/>
+                <constraint firstItem="pbt-cw-XwP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="d3U-DU-Y85"/>
+                <constraint firstAttribute="bottom" secondItem="pbt-cw-XwP" secondAttribute="bottom" id="d6W-kq-lWj"/>
+                <constraint firstItem="pbt-cw-XwP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="o4t-hx-3rf"/>
+                <constraint firstItem="pbt-cw-XwP" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="qbr-cV-ToO"/>
+                <constraint firstItem="lD4-M1-g6G" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="umj-d4-DJh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnEdit" destination="R3f-Qv-uYf" id="L52-sE-TMB"/>
+                <outlet property="lblTitle" destination="Sxf-zp-AOm" id="Fnr-6F-q6H"/>
+            </connections>
+            <point key="canvasLocation" x="-24" y="17"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="redTint">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="separator">
+            <color red="0.78431372549019607" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
